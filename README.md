@@ -60,7 +60,7 @@ The data logger is controlled by 3 Buttons,
 
 
 LED Status
-There are 2 leds
+There are 2 LEDs
 - Heart Beat/Status: The built in LED
 - File Save: Added Led
 
@@ -76,10 +76,10 @@ There are 2 leds
 Data: 
 The sensor name, calibration, and units are configured in [chData.c](/chData.c)
 
-The Output File is creaated on boot as <number>.csv. Where number is the next available file. 
+The Output File is created on boot as <number>.csv. Where number is the next available file. 
 E.X.: 0.csv is created when booting to an empty disk. 
 
-The file format is as follows with the first line the sensor name, the second line the units, and subsiquent lines are the data:
+The file format is as follows with the first line the sensor name, the second line the units, and subsequent lines are the data:
 |Date	| Time	| Batt|Accl x	|Accl y	|Accl Z	|Distance |	Radiation	|sensor a|	temp|
 |-----|-------|-----|-------|-------|-------|---------|----------|--------|------|
 |MM/DD/YY	|hh:mm:ss.SSS|	9.740439	|g	|g	|g	|cm|	mili sV	|mV|	C|
