@@ -3,13 +3,13 @@ A Dataloger using the STM NUCLEO-L476RG, a MicroSD Card, and the FatFS library f
 
 <img src="images/IMG_7176.jpg" width="400" >
 
-#### Table of Contents
+## Table of Contents
 - [Background](#background)
 - [Indent](#indent)
 - [Center](#center)
 - [Using the datalogger](#use)
 
-### Background {#background}
+## Background
 In 2008 Tesla was just shipping the first of the Roadsters. Unfortunately the chassis they had received from the UK had some issues with "Squeak"
 My company was brought in to attempt to diagnose where the "Squeak" was coming from (It turned out to be many places!).
 In order to do this our first task was to instrument the car and capture the "Squeak" in order to analyze it's charictor.
