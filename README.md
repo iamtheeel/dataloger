@@ -1,4 +1,6 @@
 # dataloger
+Cannek Heredia, Vrishika Vijay Mohite, and Joshua Mehlman present:
+
 A Dataloger using the STM NUCLEO-L476RG, a MicroSD Card, and the FatFS library for SFSU ENGR 498 
 
 <img src="images/IMG_7176.jpg" width="400" >
