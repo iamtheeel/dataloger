@@ -5,8 +5,7 @@ A Dataloger using the STM NUCLEO-L476RG, a MicroSD Card, and the FatFS library f
 
 ## Table of Contents
 - [Background](#background)
-- [Indent](#indent)
-- [Center](#center)
+- [Tec-Stack](#Notes-on-the-Tec-Stack)
 - [Using the datalogger](#Using-the-datalogger)
 
 ## Background
@@ -20,12 +19,12 @@ It was also awkward to use. You had to record the data, then lug the entire inst
 
 When thinking about what we could do for our project, this experience jumped to my mind.
 I wanted something small, lightweight, low power, and it had to write to a file.
-We definitely did not want to truck with a filesystem, so we used the <a href="http://elm-chan.org/fsw/ff/00index_e.html">FatFS</a> library by ChaN to take care of the files themselves. We just had to write an SD Card driver... Oh, if I knew then what I knew now.
-Oh, the FatFS web page usualy returns a 404. Please see the <a href="https://github.com/abbrev/fatfs"> Copy put on Git</a> by Christopher Williams.
+We definitely did not want to truck with a filesystem, so we used a library to take care of the files themselves. We just had to write an SD Card driver... Oh, if I knew then what I knew now.
 
-Building: 
-The system is built with the Keil compiler. Some members used the Arm Keil Studio Pack under VS Code, and others used the Keil uVision.
-We did not use any of the ST HAL library functions, everything was done with Arm CMSIS
+## Notes on the Tec Stack
+- We used the <a href="http://elm-chan.org/fsw/ff/00index_e.html">FatFS</a> library by ChaN to take care of the files themselves. Oh, the FatFS web page usualy returns a 404. Please see the <a href="https://github.com/abbrev/fatfs"> Copy put on Git</a> by Christopher Williams.
+
+- The system is built with the Keil compiler. Some members used the Arm Keil Studio Pack under VS Code, and others used the Keil uVision. We did not use any of the ST HAL library functions, everything was done with Arm CMSIS
 
 Each of these bits was hand-twiddled by our team of trained code monkeys.
 
@@ -44,7 +43,7 @@ For shutdown and a heartbeat/status we used the button and LED that are built in
 ![The Datalogger Circuit Diagram](/images/circuitDiagram.jpg "Circuit")
 
 
-### Using the datalogger
+## Using the datalogger
 
 LED Status
 
