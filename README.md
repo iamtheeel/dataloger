@@ -82,7 +82,7 @@ E.X.: 0.csv is created when booting to an empty disk.
 The file format is as follows with the first line the sensor name, the second line the units, and subsequent lines are the data:
 |Date	| Time	| Batt|Accl x	|Accl y	|Accl Z	|Distance |	Radiation	|sensor a|	temp|
 |-----|-------|-----|-------|-------|-------|---------|----------|--------|------|
-|MM/DD/YY	|hh:mm:ss.SSS|	9.740439	|g	|g	|g	|cm|	mili sV	|mV|	C|
+|MM/DD/YY	|hh:mm:ss.SSS|	V |g	|g	|g	|cm|	mili sV	|mV|	C|
 |12/13/24	|11:38:43.543	|9.735603	  |0	|0	|0	|0|	0	|0	|0|
 |12/13/24	|11:38:44.539	|9.745274	  |0	|0	|0	|0|	0	|0	|0|
 
