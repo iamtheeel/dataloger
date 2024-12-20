@@ -44,8 +44,8 @@ For shutdown and a heartbeat/status we used the button and LED that are built in
 ![The Datalogger Circuit Diagram](/images/circuitDiagram.jpg "Circuit")
 
 
-<a href="#use">Heading IDs</a>
-### Using the datalogger {#use}
+<a href="#use">Using the datalogger</a>
+
 LED Status
 
 
