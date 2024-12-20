@@ -7,7 +7,7 @@ A Dataloger using the STM NUCLEO-L476RG, a MicroSD Card, and the FatFS library f
 - [Background](#background)
 - [Indent](#indent)
 - [Center](#center)
-- [Using the datalogger](#use)
+- [Using the datalogger](#Using-the-datalogger)
 
 ## Background
 In 2008 Tesla was just shipping the first of the Roadsters. Unfortunately the chassis they had received from the UK had some issues with "Squeak"
@@ -44,7 +44,7 @@ For shutdown and a heartbeat/status we used the button and LED that are built in
 ![The Datalogger Circuit Diagram](/images/circuitDiagram.jpg "Circuit")
 
 
-### <a href="#use"/>Using the datalogger
+### Using the datalogger
 
 LED Status
 
